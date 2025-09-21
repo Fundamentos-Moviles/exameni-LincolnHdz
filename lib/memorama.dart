@@ -77,7 +77,7 @@ class _MemoramaState extends State<Memorama> {
       context: context,
       builder: (_) => AlertDialog(
         title: const Text("¡Felicidades!"),
-        content: const Text("Has completado el memorama 🎉"),
+        content: const Text("Has completado el memorama"),
         actions: [
           TextButton(
             onPressed: () {
@@ -118,7 +118,7 @@ class _MemoramaState extends State<Memorama> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Memorama"),
+        title: const Text("Memorama, Hernandez Mendoza Lincoln Leonardo"),
       ),
       body: Column(
         children: [
